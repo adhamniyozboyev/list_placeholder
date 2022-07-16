@@ -14,4 +14,4 @@ List func(int K,int N){
     
   }return j;
 }
-void main() {print(func(1,9));}
+void main() {print(func(1,8));}
