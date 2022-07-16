@@ -13,4 +13,4 @@ List func(int N, int K,int M){
     N=N+5;
   }return d;
 }
-void main() {print(func(5,20,30));}
+void main() {print(func(5,20,40));}
