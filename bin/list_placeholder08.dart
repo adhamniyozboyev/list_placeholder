@@ -10,6 +10,7 @@ List func(int n){
   
   List r=[];
  while(f<n){
+  r.add(f);
   f=f+2;
   print(f);
  }return r;
