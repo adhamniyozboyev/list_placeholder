@@ -9,8 +9,9 @@ List func(int K,int N){
    int s=0;
   List j=[];
   while(K<N){
-    K=K+1;
     j.add(K);
+    K=K+1;
+    
   }return j;
 }
 void main() {print(func(1,9));}
