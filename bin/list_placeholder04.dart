@@ -6,9 +6,9 @@ Return the List
 
 */
 List func(int n){
-  int s=0;
+  int s=-1;
   List c=[];
-  while (s<n){
+  while (s<n-1){
     s++;
     c.add(s);
   }return c;
