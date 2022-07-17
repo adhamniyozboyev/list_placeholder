@@ -5,5 +5,12 @@ Argument int n
 Return the List
 
 */
-
-void main() {}
+List func(int a){
+  int n=6;
+  List x=[];
+  while(n<a){
+    
+    n+=2;
+  }return x;
+}
+void main() {print(2);}
