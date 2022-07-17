@@ -5,13 +5,19 @@ Argument int n
 Return the List
 
 */
-List func(int n){
-  int f=0;
-  List d=[];
-  while(f<n){
-    f=f+1;print(f); if(n%1==0){
-      f=f+1;
-    }
-  }return d;
+ 
+List func(n) {
+  int f = 1;
+  List c = [];
+  while (f < n) {
+    c.add(f);
+    f = f + 2;
+    print(f);
+  }
+
+  return c;
 }
-void main() {print(func(6));}
+
+
+
+void main() {print(func(7));}
