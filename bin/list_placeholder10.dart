@@ -5,12 +5,25 @@ Argument int n
 Return the List
 
 */
-List func(int a){
-  int n=6;
-  List x=[];
-  while(n<a){
-    
-    n+=2;
-  }return x;
+
+
+
+List func(n) {
+  List l = [];
+
+  int x = 0;
+  while (x < n) {
+    if (x % 2 == 0) {
+      l.add(x.toString());
+    } else {
+      l.add(x);
+    }
+    x += 1;
+  }
+  // print(l[2].runtimeType);
+  return l;
 }
-void main() {print(2);}
+
+void main() {
+  print(func(4));
+}
